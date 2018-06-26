@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<phpunit
+        bootstrap="tests/bootstrap.php"
+        backupGlobals="false"
+        backupStaticAttributes="false"
+        stderr="true" >
+    <php>
+        <var name="slimpdo.database.driver" value="pgsql" />
+        <var name="slimpdo.database.path" value="test.db" />
+        <var name="slimpdo.database.host" value="localhost" />
+        <var name="slimpdo.database.port" value="5432" />
+        <var name="slimpdo.database.username" value="user" />
+        <var name="slimpdo.database.password" value="password" />
+        <var name="slimpdo.database.dbname" value="dbname" />
+    </php>
+    <testsuites>
+        <testsuite name="SlimPDO Tests">
+            <directory>tests/Slim/PDO</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

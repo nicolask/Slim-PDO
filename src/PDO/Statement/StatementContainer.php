@@ -511,7 +511,8 @@ abstract class StatementContainer
     protected function setPlaceholders(array $values)
     {
         foreach ($values as $value) {
-            $this->placeholders[] = $this->setPlaceholder('?', is_null($value) ? 1 : sizeof($value));
+            $phCount = is_null($value) ? 1 : (is_array($value) ? count($value) : 1);
+            $this->placeholders[] = $this->setPlaceholder('?', $phCount);
         }
     }
 
