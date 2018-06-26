@@ -1,5 +1,11 @@
 ### Changelog
 
+### v1.11.0
++ Updated `StatementContainer` class with:
+  - Fix warning for non array values
+
+#### Find the original releases below
+
 ##### v1.10.1
 + Updated `Database` class with:
   - Allow user provided PDO options to overwrite default values
