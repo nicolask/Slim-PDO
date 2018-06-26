@@ -1,10 +1,10 @@
 {
-    "name": "slim/pdo",
+    "name": "nicolask/slimmer-pdo",
     "description": "PDO database library for Slim Framework",
     "version": "1.10.1",
     "type": "library",
     "keywords": ["pdo", "database", "slim", "framework"],
-    "homepage": "https://github.com/FaaPz/Slim-PDO",
+    "homepage": "https://github.com/nicolask/Slim-PDO",
     "license": "MIT",
     "authors": [
         {
@@ -12,18 +12,26 @@
             "email": "fabian@faapz.nl",
             "homepage": "http://faapz.nl",
             "role": "Developer"
+        },
+        {
+            "name": "Nicolas Krueger",
+            "email": "nicolas.krueger@gmail.com",
+            "role": "Maintainer"
         }
     ],
     "support": {
-        "issues": "https://github.com/FaaPz/Slim-PDO/issues",
-        "docs": "https://github.com/FaaPz/Slim-PDO/blob/master/docs/README.md"
+        "issues": "https://github.com/nicolask/Slim-PDO/issues",
+        "docs": "https://github.com/nicolask/Slim-PDO/blob/master/docs/README.md"
+    },
+    "conflict": {
+        "slim/pdo": "*"
     },
     "require": {
-        "php": ">=5.3.0",
+        "php": "^7.1",
         "ext-pdo": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7"
+        "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {

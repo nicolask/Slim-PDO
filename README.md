@@ -1,9 +1,6 @@
-# Slim-PDO
+# Slimmer-PDO
 
-[![Latest Stable Version](https://poser.pugx.org/slim/pdo/v/stable)](https://packagist.org/packages/slim/pdo)
-[![Total Downloads](https://poser.pugx.org/slim/pdo/downloads)](https://packagist.org/packages/slim/pdo)
-[![Latest Unstable Version](https://poser.pugx.org/slim/pdo/v/unstable)](https://packagist.org/packages/slim/pdo)
-[![License](https://poser.pugx.org/slim/pdo/license)](https://packagist.org/packages/slim/pdo)
+Slimmer-PDO is a fork of the original FaaPz/Slim-PDO prepared to be used in PHP >=7.1.
 
 PDO database library for Slim Framework
 
@@ -13,7 +10,7 @@ Use [Composer](https://getcomposer.org/)
 
 ```json
 "require": {
-    "slim/pdo": "~1.10"
+    "nicolask/slimmer-pdo": "~1.10"
 }
 ```
 
@@ -64,12 +61,12 @@ $affectedRows = $deleteStatement->execute();
 
 ### Documentation
 
-See [DOCUMENTATION](https://github.com/FaaPz/Slim-PDO/blob/master/docs/README.md)
+See [DOCUMENTATION](https://github.com/nicolask/Slim-PDO/blob/master/docs/README.md)
 
 ### Changelog
 
-See [CHANGELOG](https://github.com/FaaPz/Slim-PDO/blob/master/CHANGELOG.md)
+See [CHANGELOG](https://github.com/nicolask/Slim-PDO/blob/master/CHANGELOG.md)
 
 ### License
 
-See [LICENSE](https://github.com/FaaPz/Slim-PDO/blob/master/LICENSE)
+See [LICENSE](https://github.com/nicolask/Slim-PDO/blob/master/LICENSE)

@@ -15,7 +15,7 @@
     </php>
     <testsuites>
         <testsuite name="SlimPDO Tests">
-            <directory>tests/Slim/PDO</directory>
+            <directory>tests/PDO</directory>
         </testsuite>
     </testsuites>
 </phpunit>
